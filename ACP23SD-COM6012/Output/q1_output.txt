@@ -1,0 +1,87 @@
+24/05/02 20:38:36 INFO SparkContext: Running Spark version 3.5.0
+24/05/02 20:38:36 INFO SparkContext: OS info Linux, 3.10.0-1160.105.1.el7.x86_64, amd64
+24/05/02 20:38:36 INFO SparkContext: Java version 17.0.4
+24/05/02 20:38:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/05/02 20:38:36 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+24/05/02 20:38:36 INFO ResourceUtils: ==============================================================
+24/05/02 20:38:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/05/02 20:38:36 INFO ResourceUtils: ==============================================================
+24/05/02 20:38:36 INFO SparkContext: Submitted application: COM6012 Spark Intro
+24/05/02 20:38:36 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/05/02 20:38:36 INFO ResourceProfile: Limiting resource is cpu
+24/05/02 20:38:36 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/05/02 20:38:36 INFO SecurityManager: Changing view acls to: acp23sd
+24/05/02 20:38:36 INFO SecurityManager: Changing modify acls to: acp23sd
+24/05/02 20:38:36 INFO SecurityManager: Changing view acls groups to: 
+24/05/02 20:38:36 INFO SecurityManager: Changing modify acls groups to: 
+24/05/02 20:38:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: acp23sd; groups with view permissions: EMPTY; users with modify permissions: acp23sd; groups with modify permissions: EMPTY
+24/05/02 20:38:36 INFO Utils: Successfully started service 'sparkDriver' on port 45545.
+24/05/02 20:38:36 INFO SparkEnv: Registering MapOutputTracker
+24/05/02 20:38:36 INFO SparkEnv: Registering BlockManagerMaster
+24/05/02 20:38:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/05/02 20:38:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/05/02 20:38:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/05/02 20:38:37 INFO DiskBlockManager: Created local directory at /tmp/job.2549147/blockmgr-34450552-d1fa-46ad-a783-cc641274a4b4
+24/05/02 20:38:37 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+24/05/02 20:38:37 INFO SparkEnv: Registering OutputCommitCoordinator
+24/05/02 20:38:37 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/05/02 20:38:37 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+24/05/02 20:38:37 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+24/05/02 20:38:37 INFO Executor: Starting executor ID driver on host node089.pri.stanage.alces.network
+24/05/02 20:38:37 INFO Executor: OS info Linux, 3.10.0-1160.105.1.el7.x86_64, amd64
+24/05/02 20:38:37 INFO Executor: Java version 17.0.4
+24/05/02 20:38:37 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/05/02 20:38:37 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@508098e6 for default.
+24/05/02 20:38:37 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42695.
+24/05/02 20:38:37 INFO NettyBlockTransferService: Server created on node089.pri.stanage.alces.network:42695
+24/05/02 20:38:37 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/05/02 20:38:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, node089.pri.stanage.alces.network, 42695, None)
+24/05/02 20:38:37 INFO BlockManagerMasterEndpoint: Registering block manager node089.pri.stanage.alces.network:42695 with 413.9 MiB RAM, BlockManagerId(driver, node089.pri.stanage.alces.network, 42695, None)
+24/05/02 20:38:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, node089.pri.stanage.alces.network, 42695, None)
+24/05/02 20:38:37 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, node089.pri.stanage.alces.network, 42695, None)
+Number of total hosts from Germany:  21345
+Number of total hosts from Canada:  58290
+Number of total hosts from Singapore:  1057
+Number of unqiue hosts in Germany:  1138
+
+
+Number of unique hosts in Canada:  2970
+
+
+NUmber of unique hosts in Singapore:  78
+
+
+Top hosts from Germany:
+host62.ascend.interop.eunet.de 832
+aibn32.astro.uni-bonn.de 642
+ns.scn.de 523
+www.rrz.uni-koeln.de 423
+ztivax.zfe.siemens.de 387
+sun7.lrz-muenchen.de 280
+relay.ccs.muc.debis.de 275
+dws.urz.uni-magdeburg.de 244
+relay.urz.uni-heidelberg.de 239
+
+
+Top hosts from Canada:
+ottgate2.bnr.ca 1718
+freenet.edmonton.ab.ca 782
+bianca.osc.on.ca 511
+alize.ere.umontreal.ca 479
+pcrb.ccrs.emr.ca 461
+srv1.freenet.calgary.ab.ca 362
+ccn.cs.dal.ca 351
+oncomdis.on.ca 304
+cobain.arcs.bcit.bc.ca 289
+
+
+Top hosts from Singapore:
+merlion.singnet.com.sg 308
+sunsite.nus.sg 40
+ts900-1314.singnet.com.sg 30
+ssc25.iscs.nus.sg 30
+scctn02.sp.ac.sg 25
+ts900-1305.singnet.com.sg 25
+ts900-406.singnet.com.sg 25
+ts900-402.singnet.com.sg 24
+einstein.technet.sg 23

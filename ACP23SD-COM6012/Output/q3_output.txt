@@ -1,0 +1,102 @@
+24/05/03 03:17:14 INFO SparkContext: Running Spark version 3.5.0
+24/05/03 03:17:14 INFO SparkContext: OS info Linux, 3.10.0-1160.105.1.el7.x86_64, amd64
+24/05/03 03:17:14 INFO SparkContext: Java version 17.0.4
+24/05/03 03:17:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/05/03 03:17:14 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+24/05/03 03:17:14 INFO ResourceUtils: ==============================================================
+24/05/03 03:17:14 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/05/03 03:17:14 INFO ResourceUtils: ==============================================================
+24/05/03 03:17:14 INFO SparkContext: Submitted application: COM6012 Spark Intro
+24/05/03 03:17:14 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/05/03 03:17:14 INFO ResourceProfile: Limiting resource is cpu
+24/05/03 03:17:14 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/05/03 03:17:14 INFO SecurityManager: Changing view acls to: acp23sd
+24/05/03 03:17:14 INFO SecurityManager: Changing modify acls to: acp23sd
+24/05/03 03:17:14 INFO SecurityManager: Changing view acls groups to: 
+24/05/03 03:17:14 INFO SecurityManager: Changing modify acls groups to: 
+24/05/03 03:17:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: acp23sd; groups with view permissions: EMPTY; users with modify permissions: acp23sd; groups with modify permissions: EMPTY
+24/05/03 03:17:14 INFO Utils: Successfully started service 'sparkDriver' on port 44581.
+24/05/03 03:17:14 INFO SparkEnv: Registering MapOutputTracker
+24/05/03 03:17:14 INFO SparkEnv: Registering BlockManagerMaster
+24/05/03 03:17:14 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/05/03 03:17:14 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/05/03 03:17:14 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/05/03 03:17:14 INFO DiskBlockManager: Created local directory at /tmp/job.2551836/blockmgr-f0106f21-a2a2-406c-991a-50fc8e6ed54d
+24/05/03 03:17:14 INFO MemoryStore: MemoryStore started with capacity 11.8 GiB
+24/05/03 03:17:14 INFO SparkEnv: Registering OutputCommitCoordinator
+24/05/03 03:17:14 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+24/05/03 03:17:14 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+24/05/03 03:17:14 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+24/05/03 03:17:14 INFO Executor: Starting executor ID driver on host node203.pri.stanage.alces.network
+24/05/03 03:17:14 INFO Executor: OS info Linux, 3.10.0-1160.105.1.el7.x86_64, amd64
+24/05/03 03:17:14 INFO Executor: Java version 17.0.4
+24/05/03 03:17:14 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/05/03 03:17:14 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@f4ca094 for default.
+24/05/03 03:17:14 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44892.
+24/05/03 03:17:14 INFO NettyBlockTransferService: Server created on node203.pri.stanage.alces.network:44892
+24/05/03 03:17:14 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/05/03 03:17:14 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, node203.pri.stanage.alces.network, 44892, None)
+24/05/03 03:17:14 INFO BlockManagerMasterEndpoint: Registering block manager node203.pri.stanage.alces.network:44892 with 11.8 GiB RAM, BlockManagerId(driver, node203.pri.stanage.alces.network, 44892, None)
+24/05/03 03:17:14 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, node203.pri.stanage.alces.network, 44892, None)
+24/05/03 03:17:14 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, node203.pri.stanage.alces.network, 44892, None)
+24/05/03 03:18:28 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+24/05/03 03:18:28 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.VectorBLAS
+
+Multilayer Perceptron - Best Model:
+{'layers': [28, 5, 2], 'stepSize': 0.1, 'maxIter': 30}
+24/05/03 04:07:54 WARN BlockManager: Asked to remove block rdd_74877_14, which does not exist
+
+Gradient Boosting - Best Model:
+{'stepSize': 0.3, 'maxDepth': 5, 'maxIter': 30}
+24/05/03 04:18:14 WARN DAGScheduler: Broadcasting large task binary with size 1051.9 KiB
+24/05/03 04:18:21 WARN DAGScheduler: Broadcasting large task binary with size 1060.5 KiB
+24/05/03 04:18:28 WARN DAGScheduler: Broadcasting large task binary with size 1057.9 KiB
+24/05/03 04:18:56 WARN DAGScheduler: Broadcasting large task binary with size 1507.7 KiB
+24/05/03 04:18:58 WARN DAGScheduler: Broadcasting large task binary with size 1241.8 KiB
+24/05/03 04:19:05 WARN DAGScheduler: Broadcasting large task binary with size 1514.5 KiB
+24/05/03 04:19:09 WARN DAGScheduler: Broadcasting large task binary with size 1254.9 KiB
+24/05/03 04:19:14 WARN DAGScheduler: Broadcasting large task binary with size 1515.3 KiB
+24/05/03 04:19:16 WARN DAGScheduler: Broadcasting large task binary with size 1204.2 KiB
+24/05/03 04:21:12 WARN DAGScheduler: Broadcasting large task binary with size 1054.2 KiB
+24/05/03 04:21:19 WARN DAGScheduler: Broadcasting large task binary with size 1057.3 KiB
+24/05/03 04:21:26 WARN DAGScheduler: Broadcasting large task binary with size 1055.6 KiB
+24/05/03 04:21:54 WARN DAGScheduler: Broadcasting large task binary with size 1514.2 KiB
+24/05/03 04:21:56 WARN DAGScheduler: Broadcasting large task binary with size 1252.0 KiB
+24/05/03 04:22:03 WARN DAGScheduler: Broadcasting large task binary with size 1512.7 KiB
+24/05/03 04:22:07 WARN DAGScheduler: Broadcasting large task binary with size 1263.3 KiB
+24/05/03 04:22:12 WARN DAGScheduler: Broadcasting large task binary with size 1513.8 KiB
+24/05/03 04:22:15 WARN DAGScheduler: Broadcasting large task binary with size 1218.9 KiB
+24/05/03 04:24:11 WARN DAGScheduler: Broadcasting large task binary with size 1052.7 KiB
+24/05/03 04:24:18 WARN DAGScheduler: Broadcasting large task binary with size 1058.2 KiB
+24/05/03 04:24:25 WARN DAGScheduler: Broadcasting large task binary with size 1059.6 KiB
+24/05/03 04:24:52 WARN DAGScheduler: Broadcasting large task binary with size 1508.1 KiB
+24/05/03 04:24:55 WARN DAGScheduler: Broadcasting large task binary with size 1239.8 KiB
+24/05/03 04:25:02 WARN DAGScheduler: Broadcasting large task binary with size 1510.4 KiB
+24/05/03 04:25:05 WARN DAGScheduler: Broadcasting large task binary with size 1269.5 KiB
+24/05/03 04:25:11 WARN DAGScheduler: Broadcasting large task binary with size 1518.7 KiB
+24/05/03 04:25:13 WARN DAGScheduler: Broadcasting large task binary with size 1232.9 KiB
+24/05/03 04:27:09 WARN DAGScheduler: Broadcasting large task binary with size 1054.2 KiB
+24/05/03 04:27:16 WARN DAGScheduler: Broadcasting large task binary with size 1055.4 KiB
+24/05/03 04:27:22 WARN DAGScheduler: Broadcasting large task binary with size 1057.5 KiB
+24/05/03 04:27:50 WARN DAGScheduler: Broadcasting large task binary with size 1512.9 KiB
+24/05/03 04:27:53 WARN DAGScheduler: Broadcasting large task binary with size 1239.2 KiB
+24/05/03 04:28:00 WARN DAGScheduler: Broadcasting large task binary with size 1509.7 KiB
+24/05/03 04:28:03 WARN DAGScheduler: Broadcasting large task binary with size 1258.7 KiB
+24/05/03 04:28:08 WARN DAGScheduler: Broadcasting large task binary with size 1516.3 KiB
+24/05/03 04:28:11 WARN DAGScheduler: Broadcasting large task binary with size 1213.9 KiB
+24/05/03 04:30:06 WARN DAGScheduler: Broadcasting large task binary with size 1057.4 KiB
+24/05/03 04:30:13 WARN DAGScheduler: Broadcasting large task binary with size 1058.8 KiB
+24/05/03 04:30:20 WARN DAGScheduler: Broadcasting large task binary with size 1058.7 KiB
+24/05/03 04:30:48 WARN DAGScheduler: Broadcasting large task binary with size 1517.1 KiB
+24/05/03 04:30:50 WARN DAGScheduler: Broadcasting large task binary with size 1261.9 KiB
+24/05/03 04:30:57 WARN DAGScheduler: Broadcasting large task binary with size 1512.3 KiB
+24/05/03 04:31:01 WARN DAGScheduler: Broadcasting large task binary with size 1256.5 KiB
+24/05/03 04:31:06 WARN DAGScheduler: Broadcasting large task binary with size 1519.7 KiB
+24/05/03 04:31:08 WARN DAGScheduler: Broadcasting large task binary with size 1220.5 KiB
+24/05/03 04:33:36 WARN DAGScheduler: Broadcasting large task binary with size 1497.8 KiB
+Random Forest - Best Model:
+{'numTrees': 75, 'maxDepth': 7, 'maxBins': 64}
+24/05/03 04:39:44 WARN DAGScheduler: Broadcasting large task binary with size 1516.6 KiB
+Random Forest - AUC on full dataset: 0.6879225995633658
+Gradient Boosting - AUC on full dataset: 0.7227098069946143
+Multilayer Perceptron - AUC on full dataset: 0.6225901027435201

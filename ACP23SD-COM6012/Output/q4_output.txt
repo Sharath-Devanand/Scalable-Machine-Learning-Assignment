@@ -1,0 +1,81 @@
+Metrics for 40.0% training data with Setting 1:
+RMSE: 0.8065054132580284, MSE: 0.6504509816145031, MAE: 0.6218303862035098
+Metrics for 40.0% training data with Setting 2:
+RMSE: 0.8111544972700697, MSE: 0.6579716184414596, MAE: 0.6239040899911104
+Top 5 Clusters for Split Size 40.0%:
+Cluster 7: 5059 users
+Cluster 21: 4114 users
+Cluster 16: 3704 users
+Cluster 23: 3671 users
+Cluster 24: 3504 users
+Top 5 Movies for Split Size 40.0%:
+Rumor of Angels, A (2000)
+Born Yesterday (1950)
+That Obscure Object of Desire (Cet obscur objet du désir) (1977)
+Moscow Does Not Believe in Tears (Moskva slezam ne verit) (1979)
+Robot & Frank (2012)
+Top 10 Genres for Split Size 40.0%:
+Drama: 792
+Comedy: 366
+Romance: 197
+Thriller: 195
+Crime: 174
+Action: 134
+Adventure: 118
+Documentary: 115
+War: 93
+Mystery: 79
+Metrics for 60.0% training data with Setting 1:
+RMSE: 0.7779441050917113, MSE: 0.6051970306469435, MAE: 0.5924562907202132
+Metrics for 60.0% training data with Setting 2:
+RMSE: 0.7774377256294837, MSE: 0.6044094172319443, MAE: 0.5911982329836366
+Top 5 Clusters for Split Size 60.0%:
+Cluster 15: 6394 users
+Cluster 9: 5106 users
+Cluster 7: 4936 users
+Cluster 3: 4314 users
+Cluster 22: 4092 users
+Top 5 Movies for Split Size 60.0%:
+My Voyage to Italy (Il mio viaggio in Italia) (1999)
+Outrage (2009)
+Fifth Estate, The (2013)
+Home (2009)
+Naked Kiss, The (1964)
+Top 10 Genres for Split Size 60.0%:
+Drama: 628
+Comedy: 231
+Romance: 183
+Documentary: 156
+Thriller: 139
+Crime: 132
+War: 86
+Action: 86
+Adventure: 79
+Mystery: 63
+Metrics for 80.0% training data with Setting 1:
+RMSE: 0.7976814569738635, MSE: 0.6362957067999456, MAE: 0.605544408179643
+Metrics for 80.0% training data with Setting 2:
+RMSE: 0.8035529189864592, MSE: 0.6456972936116591, MAE: 0.6084076669557363
+Top 5 Clusters for Split Size 80.0%:
+Cluster 11: 7118 users
+Cluster 18: 6146 users
+Cluster 2: 5880 users
+Cluster 1: 5561 users
+Cluster 8: 5530 users
+Top 5 Movies for Split Size 80.0%:
+Sombre (1998)
+Rockers (1978)
+Closer You Get, The (2000)
+Fetishes (1996)
+Beneath Hill 60 (2010)
+Top 10 Genres for Split Size 80.0%:
+Drama: 1974
+Comedy: 826
+Documentary: 572
+Romance: 463
+Crime: 405
+Thriller: 380
+Action: 277
+War: 233
+Adventure: 214
+Mystery: 189
